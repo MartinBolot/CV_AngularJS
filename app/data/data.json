@@ -1,0 +1,86 @@
+{
+    "fr":{
+        "fullName":"Martin BOLOT",
+        "role": "Développeur Web",
+        "profilePic" : "img/photo_id2.jpg",
+        "sections":{
+            "skills" :{
+                "title":"Compétences en Programmation",
+                "menuTitle":"Compétences",
+                "content":{
+                    "JavaScript" : 4,
+                    "CSS3" : 4,
+                    "HTML5" : 4,
+                    "others" : 3
+                }
+            },
+            "portfolio":{
+                "title":"Expérience",
+                "content":{
+                    "emagineurs":{
+                        "title":"Agence E-magineurs",
+                        "subtitle":"",
+                        "missions":"Découpage, intégration et configuration de sites internet",
+                        "activity":[
+                            "Réalisation de gabarits grâce à HTML et CSS",
+                            "Développement de diverses fonctionnalités en JavaScript",
+                            "Intégration des gabarits dans le CMS TYPO3",
+                            "Configuration du CMS et de ses extensions",
+                            "Formations utilisateurs"
+                        ],
+                        "status":"CDI",
+                        "url":""
+                    },
+                    "stageEmagineurs":{
+                        "title":"Stage intégration contenu Web",
+                        "subtitle":"Agence E-magineurs",
+                        "url":"www.e-magineurs.com"
+                    },
+                    "optimisationRef":{
+                        "title":"Optimisation référencement Web",
+                        "subtitle":"Degustatio",
+                        "url":"www.degustatio.fr"
+                    }
+                }
+            },
+            "about":{
+                "title":"Formation",
+                "content":{
+                    "formations":[
+                        {"year":"2016","subject":"DUT Informatique en Année Spéciale - Université Lyon 1 (en cours)"},
+                        {"year":"2012","subject":"Licence LLCE spé Japonais - Université Jean Moulin Lyon 3 - Mention AB"},
+                        {"year":"2009","subject":"Baccalauréat Section Scientifique - Mention AB"}
+                    ]
+                }
+            },
+            "languages":{
+                "title":"Langues",
+                "content":{
+                    "languages":[
+                        {"title":"Anglais","level":"courant (Voyages aux Etats-Unis en 2005 et 2011)"},
+                        {"title":"Japonais","level":"bonne maîtrise (Licence de japonais, Voyages au Japon en 2009 et 2013)"},
+                        {"title":"Allemand","level":"scolaire (Niveau BAC – Première langue)"}
+                    ]
+                }
+            },
+            "contact":{
+                "title":"Contacts",
+                "content":{
+                    "name":"Martin BOLOT",
+                    "mail":"bolotmartin[at]gmail.com"
+                }
+            },
+            "motivation":{
+                "title":"Motivations",
+                "content":{
+                    "intro":"Je suis une formation à Lyon1 en IUT Informatique en année spéciale et suis à la recherche d’un stage devant se dérouler du 13 juin au 26 août 2016 ainsi que d’une alternance pour septembre 2016."
+                    ,"p1":"J’ai appris il y a plusieurs années de manière autodidacte les langages de description du web (HTML et CSS). Une certaine pratique acquise, j'ai été embauché, avec un complément de formation, par une agence de communication digitale lyonnaise où j'ai travaillé en tant qu’intégrateur/développeur web durant trois ans. La possibilité m'a été donnée de partager mes connaissances en donnant des formations à la gestion de contenu web dans différentes villes de France."
+                    ,"p2":"La reprise d’un cursus d’études dans l’informatique m’a permis d’acquérir de précieuses connaissances en algorithme (programmation fonctionnelle, structures de données), en bases de données (Oracle, MySQL), ainsi qu’en programmation (C, C++, Java, PHP). "
+                    ,"p3":"Ce qui me motive le plus reste toutefois la pratique du JavaScript pour lequel j’ai développé une passion après un premier contact en entreprise. J’ai pu développer mes compétences dans ce langage notamment grâce à mon projet d’étude (repo git : http://bit.ly/1V4mPgU), une application d’édition graphique basée sur ce dernier et D3js, l’une de ses bibliothèques. Je m’intéresse beaucoup, sur mon temps libre, à la bibliothèque NodeJS et à son écosystème (React, Express, Babel…)."
+                    ,"bonus":"Je me tiens à disposition pour tous renseignements !"
+                }
+            }
+        },
+        "copyright" : "Copyright © Martin BOLOT 2016"
+    }
+}

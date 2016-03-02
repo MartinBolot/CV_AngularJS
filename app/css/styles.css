@@ -1,0 +1,181 @@
+
+/*color dependent*/
+/*notes #f2efea #B6B6B6; #fc7753;#18bc9c;#727272 */
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fc7753;
+}
+.floating-label-form-group-with-focus label {
+    color: #fc7753;
+}
+hr.star-light:after {
+    color: #fff;
+    background-color: #fc7753;
+}
+header {
+    color: #fff;
+    background: #fc7753;
+}
+section.success {
+    color: #fff;
+    background: #fc7753;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+    background: #fc7753;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    border: solid 2px #fff;
+    color: #fc7753;
+    background: #fff;
+}
+.btn-success,.btn-success:hover{
+    background: #fc7753 !important;
+    border-color: #fc7753;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+    color: #fc7753;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    color: #fc7753;
+}
+/**/
+
+/*load_helper*/
+.load_helper{
+    /*background: url("../img/loading.gif") no-repeat scroll center center #fc7753;*/
+    background: url("../img/loading.gif") no-repeat scroll center center #FFF;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+/**/
+.align-right{
+    text-align: right;
+}
+.emphasis{
+    font-size: 1.3em;
+}
+#profile_pic{
+    border-radius: 50%;
+    width: 20%;
+}
+.formation_list{
+    font-size: 1.2em;
+}
+.space_before_row{
+    margin: 2em 0;
+}
+/*skills*/
+#js_skill{
+    font-size: 1.7em;
+}
+.hard_skill::after{
+    color: #2c3e50;
+    background-color: #fff;
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: .2em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+.stars_5::after{
+    content: "\f005\f005\f005\f005\f005"
+}
+.stars_4::after{
+    content: "\f005\f005\f005\f005\f006"
+}
+.stars_3::after{
+    content: "\f005\f005\f005\f006\f006"
+}
+.stars_2::after{
+    content: "\f005\f005\f006\f006\f006"
+}
+.stars_1::after{
+    content: "\f005\f006\f006\f006\f006"
+}
+/*form*/
+.floating-label-form-group.hidden_field{
+    border: none;
+}
+/*motivation*/
+#motivation{
+    margin: 50px 0 0;
+}
+#motivation h2{
+    margin: 0 0 20px;
+}
+#motivation p{
+    margin: 0 0 20px;
+}
+/*navigation*/
+.arrow_link{
+     position: fixed;
+     top: 50%;
+     z-index: 10;
+}
+#link_motivation{
+    right: 10px;
+}
+#link_index{
+    left: 10px;
+}
+.btn-circle {
+    width: 55px;
+    height: 55px;
+    margin-top: 15px;
+    padding: 0;
+    border: 2px solid #2c3e50;
+    border-radius: 100% !important;
+    font-size: 36px;
+    color: #2c3e50;
+    background: transparent none repeat scroll 0px 0px;
+
+    transition: background 0.2s ease-in-out 0s;
+}
+.btn-circle:hover{
+    background: #2c3e50;
+    color: #FFF;
+    outline:0;
+}
+/*animation*/
+.view{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  transition: 300ms;
+}
+.first .view.ng-enter{
+  left: -100%;
+}
+.first .view.ng-enter.ng-enter-active{
+  left: 0%;
+}
+.first .view.ng-leave{
+  left: 0%;
+}
+.first .view.ng-leave.ng-leave-active{
+  left: 100%;
+}
+.second .view.ng-enter{
+  left: 100%;
+}
+.second .view.ng-enter.ng-enter-active{
+  left: 0%;
+}
+.second .view.ng-leave{
+  left: 0%;
+}
+.second .view.ng-leave.ng-leave-active{
+  left: -100%;
+}

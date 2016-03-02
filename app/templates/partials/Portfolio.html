@@ -1,0 +1,39 @@
+<!-- portfolio -->
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <h2>Expérience</h2>
+        <hr class="star-light">
+    </div>
+</div>
+<div class="row space_before_row">
+    <div class="col-lg-6 col-lg-offset-3">
+        <div class="emphasis">
+            <p class="text-center">
+                {{sections.portfolio.content.emagineurs.title}}
+            </p>
+            <ul>
+                <li>
+                    <strong>Missions :</strong> {{sections.portfolio.content.emagineurs.missions}}
+                </li>
+                <li>
+                    <strong>Activités :</strong>
+                    <ul>
+                        <li ng-repeat="anActivity in sections.portfolio.content.emagineurs.activity ">{{anActivity}}</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Statut :</strong> {{sections.portfolio.content.emagineurs.status}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row space_before_row">
+    <div ng-repeat="(key,section) in sections.portfolio.content" class="col-sm-6 text-center" ng-if="key!='emagineurs'">
+        <p>
+            {{section.title}}<br/>
+            {{section.subtitle}}<br/>
+            <a href="http://{{section.url}}/" target="_blank">{{section.url}}</a>
+        </p>
+    </div>
+</div>

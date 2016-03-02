@@ -1,0 +1,16 @@
+<!-- languages -->
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <h2>{{sections.languages.title}}</h2>
+        <hr class="star-light">
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-10 col-lg-offset-2">
+        <ul class="formation_list">
+            <li ng-repeat="language in sections.languages.content.languages">
+                <strong>{{language.title}} : </strong> {{language.level}}
+            </li>
+        </ul>
+    </div>
+</div>

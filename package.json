@@ -1,0 +1,18 @@
+{
+  "name": "cvangular",
+  "version": "1.0.0",
+  "description": "cv angularjs martinbolot",
+  "main": "app/app.js",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "angular-route": "^1.4.9",
+    "express": "^4.13.4",
+    "nodemon": "^1.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "martin bolot",
+  "license": "ISC"
+}
